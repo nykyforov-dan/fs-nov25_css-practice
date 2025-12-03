@@ -25,13 +25,14 @@
       flex-direction: column;
       align-items: center;
 
-      transition: transform 1s linear, border-radius 1s linear;
+      transition: transform 1s linear;
 
       .photo {
         width: 200px;
         height: 200px;
         border-radius: 50%;
         overflow: hidden;
+        transition: border-radius 1s linear;
 
         position: relative;
 
